@@ -64,6 +64,7 @@
       </a>
 
       <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
+        <a href="#odak" class="hover:text-navy-900 transition-colors">Odak Alanları</a>
         <a href="#vitrin" class="hover:text-navy-900 transition-colors">Projeler &amp; Temsil</a>
         <a href="#deneyim" class="hover:text-navy-900 transition-colors">Deneyim &amp; Eğitim</a>
         <a href="#liderlik" class="hover:text-navy-900 transition-colors">Liderlik</a>
@@ -85,126 +86,19 @@
   </header>
 
   <main id="top">
+    <!-- HERO BÖLÜMÜ: Solda Büyük Fotoğraf + Sağda Geniş ve Ferah Metin -->
     <section class="bg-gradient-to-b from-navy-950 via-navy-900 to-navy-800 text-white border-b border-navy-800">
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-          <!-- En Sol: Profil Fotoğrafı -->
-          <div class="lg:col-span-3 flex justify-center lg:justify-start">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+          <!-- Sol: Büyük Profil Fotoğrafı -->
+          <div class="lg:col-span-4 flex justify-center lg:justify-start">
             <img
               src="me_v.jpeg"
               alt="Yaren Altun"
-              class="w-44 h-56 sm:w-48 sm:h-60 object-cover object-top rounded-2xl border-2 border-white/25 shadow-xl"
+              class="w-64 h-72 sm:w-72 sm:h-80 lg:w-full lg:h-[360px] max-w-[320px] object-cover object-top rounded-2xl border-2 border-white/25 shadow-2xl"
             />
           </div>
 
-          <!-- Orta: İsim, Ünvan, Özet ve İletişim -->
-          <div class="lg:col-span-5 space-y-5">
-            <div class="inline-flex flex-wrap items-center gap-2 text-xs font-semibold tracking-wide uppercase bg-white/10 text-slate-100 px-3 py-1.5 rounded-full border border-white/15">
-              <span>Endüstri Mühendisi</span>
-              <span class="text-sky-300">•</span>
-              <span>Kepez / Antalya</span>
-              <span class="text-sky-300">•</span>
-              <span>İKY Önlisans Öğrencisi</span>
-            </div>
-
-            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight">
-              Yaren Altun
-            </h1>
-            <p class="text-lg sm:text-xl font-medium text-sky-200">
-              Süreç Optimizasyonu, Veri Analitiği, Sürdürülebilirlik &amp; Proje Geliştirme
-            </p>
-
-            <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
-              Antalya Bilim Üniversitesi Endüstri Mühendisliği (İngilizce, 2025) mezunu ve Anadolu Üniversitesi İnsan Kaynakları Yönetimi önlisans öğrencisi. Bankacılık, üretim, tarım ve araştırma deneyimlerini Six Sigma, DMAIC, AHP, ARIMA ve Python (<code class="text-sky-200">pandas</code>, <code class="text-sky-200">numpy</code>) yaklaşımlarıyla birleştirerek; COP31/COY gençlik oturumlarında sürdürülebilir ve yapay zekâ/IoT destekli çözümler sunan analitik bir mühendis.
-            </p>
-
-            <div class="pt-2 flex flex-wrap gap-3 text-xs sm:text-sm">
-              <a
-                href="mailto:aaltun.yaren@gmail.com"
-                class="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg bg-white/10 hover:bg-white/15 border border-white/15 text-white transition-colors"
-              >
-                <span class="font-semibold text-sky-200">E-posta:</span>
-                <span>aaltun.yaren@gmail.com</span>
-              </a>
-              <a
-                href="tel:+905300497262"
-                class="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg bg-white/10 hover:bg-white/15 border border-white/15 text-white transition-colors"
-              >
-                <span class="font-semibold text-sky-200">Telefon:</span>
-                <span>(+90) 530 049 72 62</span>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/yaren-altun-a6041b1b9/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg bg-white text-navy-950 hover:bg-slate-100 font-semibold transition-colors"
-              >
-                <span>LinkedIn Profili</span>
-                <span aria-hidden="true">↗</span>
-              </a>
-            </div>
-          </div>
-
-          <!-- Sağ Özet Kartı -->
-          <aside class="lg:col-span-4 bg-white/10 backdrop-blur border border-white/15 rounded-2xl p-5 sm:p-6 space-y-4">
-            <h2 class="text-xs font-bold uppercase tracking-wider text-sky-200">Öne Çıkan Odak Alanları</h2>
-            <ul class="space-y-3 text-sm text-slate-100">
-              <li class="flex items-start gap-2.5">
-                <span class="mt-1.5 w-2 h-2 rounded-full bg-sky-300 shrink-0"></span>
-                <span><strong class="font-semibold text-white">Analitik &amp; Karar Destek:</strong> Bitirme projesi, TÜBİTAK 2209-A ve DİGEM Python satış tahminleme çalışması.</span>
-              </li>
-              <li class="flex items-start gap-2.5">
-                <span class="mt-1.5 w-2 h-2 rounded-full bg-emerald-300 shrink-0"></span>
-                <span><strong class="font-semibold text-white">COP31 &amp; COY Temsili:</strong> AIShare ve Yeşil Köprü projeleriyle panel ve oturum sunumları.</span>
-              </li>
-              <li class="flex items-start gap-2.5">
-                <span class="mt-1.5 w-2 h-2 rounded-full bg-amber-300 shrink-0"></span>
-                <span><strong class="font-semibold text-white">Saha &amp; Organizasyon:</strong> VakıfBank, Cam-Saş, Doktor Tarsa ve ABU AKVAÇAM deneyimleri.</span>
-              </li>
-            </ul>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-    <section id="vitrin" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
-        <div>
-          <p class="text-xs font-bold uppercase tracking-wider text-navy-700 mb-1">Portfolyo Vitrini</p>
-          <h2 class="text-2xl sm:text-3xl font-bold text-navy-950 tracking-tight">
-            Projeler, Küresel Temsil &amp; Deneyimler
-          </h2>
-          <p class="text-sm sm:text-base text-slate-600 mt-1 max-w-2xl">
-            Çalışmalarını odak alanına göre filtreleyebilir ve her kartın detay notlarını inceleyebilirsin.
-          </p>
-        </div>
-      </div>
-
-      <div
-        role="tablist"
-        aria-label="Portfolyo kategorileri"
-        class="flex flex-wrap gap-2.5 mb-8"
-      >
-        <button
-          type="button"
-          role="tab"
-          aria-selected="true"
-          data-filter="all"
-          class="filter-tab tab-active px-4 py-2.5 rounded-xl border text-xs sm:text-sm font-semibold transition-all cursor-pointer"
-        >
-          Tümü
-        </button>
-        <button
-          type="button"
-          role="tab"
-          aria-selected="false"
-          data-filter="analytics"
-          class="filter-tab tab-inactive px-4 py-2.5 rounded-xl border text-xs sm:text-sm font-semibold transition-all cursor-pointer"
-        >
-          Analitik &amp; Optimizasyon
-        </button>
-        <button
-          type="button"
-          role="tab"
-          aria-selected="false"
-          data-filter="sustainability"
+          <!-- Sağ: Geniş İsim, Ünvan, Özet ve İletişim Alanı -->
+          <div class="lg:col-span-8 space-y-6">
+            <div class="inline-flex flex-wrap items-center gap-2 text-xs font-semibold tracking-wide
