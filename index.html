@@ -126,11 +126,12 @@
         </a>
         <a
           href="CV_Yaren_Altun.pdf"
-          download="CV_Yaren_Altun.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold border border-navy-900 text-navy-900 hover:bg-slate-100 transition-colors"
         >
-          <span>CV İndir</span>
-          <span aria-hidden="true">↓</span>
+          <span>CV</span>
+          <span aria-hidden="true">↗</span>
         </a>
       </div>
     </div>
@@ -189,11 +190,12 @@
             </a>
             <a
               href="CV_Yaren_Altun.pdf"
-              download="CV_Yaren_Altun.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-sky-400/20 hover:bg-sky-400/30 border border-sky-300/40 text-white font-semibold transition-colors"
             >
-              <span>CV'yi İndir (PDF)</span>
-              <span aria-hidden="true">↓</span>
+              <span>CV Görüntüle</span>
+              <span aria-hidden="true">↗</span>
             </a>
           </div>
         </div>
@@ -604,55 +606,4 @@
             </li>
             <li class="flex items-center justify-between py-1.5">
               <span class="font-semibold text-navy-950">Almanca</span>
-              <span class="text-xs font-bold px-2.5 py-1 rounded-md bg-slate-100 text-slate-700">A1</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="bg-navy-950 text-slate-300 border-t border-navy-800 py-8">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs sm:text-sm">
-      <p>Yaren Altun • Endüstri Mühendisi • Antalya</p>
-      <div class="flex items-center gap-5">
-        <a href="mailto:aaltun.yaren@gmail.com" class="hover:text-white transition-colors">aaltun.yaren@gmail.com</a>
-        <a
-          href="https://www.linkedin.com/in/yaren-altun-a6041b1b9/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="hover:text-white transition-colors"
-        >
-          LinkedIn ↗
-        </a>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    (function () {
-      const tabs = document.querySelectorAll('.filter-tab');
-      const cards = document.querySelectorAll('.portfolio-card');
-
-      tabs.forEach((tab) => {
-        tab.addEventListener('click', () => {
-          const selectedFilter = tab.getAttribute('data-filter');
-
-          tabs.forEach((item) => {
-            const isSelected = item === tab;
-            item.setAttribute('aria-selected', String(isSelected));
-            item.classList.toggle('tab-active', isSelected);
-            item.classList.toggle('tab-inactive', !isSelected);
-          });
-
-          cards.forEach((card) => {
-            const category = card.getAttribute('data-category');
-            const shouldShow = selectedFilter === 'all' || category === selectedFilter;
-            card.classList.toggle('hidden', !shouldShow);
-          });
-        });
-      });
-    })();
-  </script>
-</body>
-</html>
+              <span
